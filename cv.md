@@ -5,7 +5,7 @@
 **E-mail:** tot.dass@yandex.ru
 **Telegram:** @Perseus_Andromedovich
 
----
+  ---
 ## **About me:**
 ---
 I have a background as a GIS specialist.
@@ -25,37 +25,5 @@ In my spare time I study HTML/CSS/JS. Interested in Frontend developer professio
 * Webpack
 * Figma, Photoshop
 * VS Code
-
----
-## **Code example:**
----
-Multiplication function.
-
----
-
-```
-function multiply(a, b){
-  return a * b
-}
-```
----
-
-## **Work experience:**
----
-HTML, CSS, JavaScript;
-https://github.com/www-net/Horizontal-parallax
-
----
-
-## **Education:**
----
-Self-Study
-
----
-
-## **English:**
----
-A1
-
 
 
