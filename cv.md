@@ -6,7 +6,7 @@
 **Telegram:** @Perseus_Andromedovich
 
   ---
-## **About me:**
+## About me:
 ---
 I have a background as a GIS specialist.
 Participated in the creation of ethnic atlases. 
@@ -15,7 +15,7 @@ I have experience as a production manager in a GIS product.
 In my spare time I study HTML/CSS/JS. Interested in Frontend developer profession.
 
 ---
-## **Skills:**
+## Skills:
 ---
 * HTML & CSS
 * JavaScript (Basic)
@@ -26,4 +26,33 @@ In my spare time I study HTML/CSS/JS. Interested in Frontend developer professio
 * Figma, Photoshop
 * VS Code
 
+---
+## Code example:
+---
+Multiplication function.
 
+---
+
+```
+function multiply(a, b){
+  return a * b
+}
+```
+---
+
+## Work experience:
+---
+HTML, CSS, JavaScript;
+https://github.com/www-net/Horizontal-parallax
+
+---
+
+## Education:
+---
+Self-Study
+
+---
+
+## English:
+---
+A1
