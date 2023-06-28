@@ -5,6 +5,7 @@
 
 **E-mail:** tot.dass@yandex.ru  
 **Telegram:** @Perseus_Andromedovich  
+**Discord:** Alexander Barsukov(@www-net)  
 
   ---
 
