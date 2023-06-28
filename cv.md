@@ -47,7 +47,7 @@ function multiply(a, b){
 ## Work experience:
 
 HTML, CSS, JavaScript.  
-https://github.com/www-net/Horizontal-parallax
+<https://github.com/www-net/Horizontal-parallax>
 
 ---
 
