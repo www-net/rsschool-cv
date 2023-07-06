@@ -1,0 +1,12 @@
+:root {
+  --basic-black: #000000;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main-header {
+  background-color: var(--basic-black);
+}
