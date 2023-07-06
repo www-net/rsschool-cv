@@ -16,6 +16,11 @@ body {
   color: var(--basic-black);
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -52,4 +57,38 @@ body {
 
 .nav__link:active {
   color: var(--active);
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.profile__img-wrapper {
+  position: relative;
+  flex-shrink: 0;
+
+  width: 200px;
+  height: 200px;
+  margin-right: 10%;
+
+  border-radius: 50%;
+  background-color: var(--basic-black);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, .6);;
+  overflow: hidden;
+}
+
+.profile__img {
+  position: absolute;
+  left: -35px;
+  display: block;
+  width: 250px;
+}
+
+.profile__info {
+  text-transform: uppercase;
+  text-align: center;
 }
