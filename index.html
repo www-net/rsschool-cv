@@ -26,7 +26,7 @@
             <a class="nav__link" href="#code">Code</a>
           </li>
           <li class="nav__list-item">
-            <a class="nav__link" href="#projects">Projects</a>
+            <a class="nav__link" href="#experience">Work experience</a>
           </li>
           <li class="nav__list-item">
             <a class="nav__link" href="#education">Education</a>
@@ -38,28 +38,84 @@
       </nav>
     </div>
   </header>
-  <main class="main">
-    <section class="container profile">
+  <main class="container main">
+    <section class="profile">
       <div class="profile__img-wrapper">
-        <img class="profile__img" src="./avatar.jpg" width="200" alt="Аватар">
+        <img class="profile__img" src="assets/img/avatar.jpg" width="200" alt="Аватар">
       </div>
       <div class="profile__info">
         <h1 class="profile__title">Барсуков Александр</h1>
         <p class="profile__text">Junior front-end developer</p>
       </div>
     </section>
-    <div class="container main-box">
-      <section id="contacts"></section>
-      <section id="summary"></section>
-      <section id="skills"></section>
-      <section id="code"></section>
-      <section id="projects"></section>
-      <section id="education"></section>
-      <section id="english"></section>
+    <div class="main-box">
+      <section class="cv-item" id="contacts">
+        <h2 class="cv-item__title">Contacts</h2>
+        <ul class="list">
+          <li><span class="cv-item__text-bold">E-mail:</span>&nbsp;<a class="cv-item__link"
+              href="mailto:tot.dass@yandex.ru">tot.dass@yandex.ru</a></li>
+          <li><span class="cv-item__text-bold">Telegram:</span>&nbsp;@Perseus_Andromedovich</li>
+          <li><span class="cv-item__text-bold">Discord:</span>&nbsp;Alexander Barsukov(@www-net)</li>
+        </ul>
+      </section>
+      <section class="cv-item" id="summary">
+        <h2 class="cv-item__title">About me</h2>
+        <p class="cv-item__text">
+          I have a background as a GIS specialist.<br>
+          Participated in the creation of ethnic atlases.<br>
+          Worked with marketing projects of the company KFC.<br>
+          I have experience as a production manager in a GIS product.<br>
+          In my spare time I study HTML/CSS/JS. Interested in Frontend developer profession.
+        </p>
+      </section>
+      <section class="cv-item" id="skills">
+        <h2 class="cv-item__title">Skills</h2>
+        <ul class="list">
+          <li>HTML & CSS</li>
+          <li>JavaScript (Basic)</li>
+          <li>SCSS</li>
+          <li>Git, GitHub</li>
+          <li>Gulp</li>
+          <li>Webpack</li>
+          <li>Figma, Photoshop</li>
+          <li>VS Code</li>
+        </ul>
+      </section>
+      <section class="cv-item" id="code">
+        <h2 class="cv-item__title">Code example</h2>
+
+        <pre>
+          <code>
+function multiply(a, b){
+  return a * b
+}
+          </code>
+        </pre>
+      </section>
+      <section class="cv-item" id="experience">
+        <h2 class="cv-item__title">Work experience</h2>
+        <p class="cv-item__text">HTML, CSS, JavaScript</p>
+        <a class="cv-item__link cv-item__link--color--red"
+          href="https://github.com/www-net/Horizontal-parallax">Horizontal parallax</a>
+      </section>
+      <section class="cv-item" id="education">
+        <h2 class="cv-item__title">Education</h2>
+        <p class="cv-item__text">Self-Study</p>
+      </section>
+      <section class="cv-item" id="english">
+        <h2 class="cv-item__title">English</h2>
+        <p class="cv-item__text">A1</p>
+      </section>
     </div>
   </main>
-  <footer>
-    <div class="container"></div>
+  <footer class="footer">
+    <div class="container footer-box">
+      <div class="footer__item">
+        <p class="footer__text">© 2023</p>
+        <a class="git-account nav__link" href="https://github.com/www-net">www-net</a>
+      </div>
+      <a class="rss-link" href="https://rs.school/js/"></a>
+    </div>
   </footer>
 </body>
 
