@@ -1,5 +1,19 @@
 :root {
   --basic-black: #000000;
+  --basic-white: #ffffff;
+  --hover: rgba(255, 0, 0, 0.8);
+  --active: rgba(255, 0, 0, 0.5);
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: var(--basic-black);
 }
 
 .container {
@@ -9,4 +23,33 @@
 
 .main-header {
   background-color: var(--basic-black);
+  color: var(--basic-white);
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.nav__list-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.nav__link {
+  display: block;
+  padding: 10px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  color: var(--hover);
+}
+
+.nav__link:active {
+  color: var(--active);
 }
